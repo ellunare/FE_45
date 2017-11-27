@@ -1,0 +1,4 @@
+<span *ngIf="id">Album ID is: {{id}}</span>
+<div class="photos__list">
+  <photo *ngFor="let p of photosList" [singlePhoto]=p></photo>
+</div>

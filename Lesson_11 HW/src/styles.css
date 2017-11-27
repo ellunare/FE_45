@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+	font-size: 10px;
+}
+
+.largeImg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 900;
+	background-color: rgba(0, 0, 0, 0.9);
+	text-align: center;
+}
+
+.largeImgClose {
+	position: fixed;
+	right: 0;
+	background-color: rgb(102, 62, 50);
+	color: #fff;
+	width: 10rem;
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+	cursor: pointer;
+}
